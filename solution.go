@@ -1,5 +1,12 @@
 package solution
 
-func GetMessage() string {
-	return ""
+import (
+	"fmt"
+
+	"github.com/kyokomi/emoji"
+)
+
+func GetMessage() {
+	pizzaMessage := emoji.Sprint("Hello :world_map:!")
+	fmt.Println(pizzaMessage)
 }
